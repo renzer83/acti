@@ -11,4 +11,4 @@ jobs:
       - name: script
         run: |
           node -v
-          npm -n 
+          npm --version 
