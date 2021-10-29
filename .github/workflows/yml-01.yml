@@ -1,0 +1,14 @@
+name: Script run
+
+on: [push, pull_request]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: echo
+        run: echo "teste"
+      - name: script
+        run: |
+          node -v
+          npm -n 
