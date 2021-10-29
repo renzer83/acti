@@ -15,5 +15,5 @@ jobs:
       - name: python script
         run: |
           import datetime
-          print(datetime.now)
+          print(datetime.datetime.now)
         shell: python
