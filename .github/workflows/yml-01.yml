@@ -18,7 +18,7 @@ jobs:
           print(datetime.datetime.now())
         shell: python
   run-windows-command:
-    # needs: [run-shell-command]
+    needs: [run-shell-command]
     runs-on: windows-latest
     steps:
       - name: powershell
